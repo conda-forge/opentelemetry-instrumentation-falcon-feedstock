@@ -26,28 +26,10 @@ requirements:
     - opentelemetry-semantic-conventions ==0.30b0
     - opentelemetry-util-http ==0.30b0
     - python >=3.4
-    # - parameterized ==0.7.4
-    # - opentelemetry-test ==0.24b0
-    # - falcon ~=2.0
-    # - parameterized ==0.7.4
-    # - opentelemetry-test-utils ==0.26b1
-    # - falcon <4.0.0,>=2.0.0
-    # - parameterized ==0.7.4
-    # - opentelemetry-test-utils ==0.27b0
-    # - falcon <4.0.0,>=2.0.0
-    # - parameterized ==0.7.4
-    # - opentelemetry-test-utils ==0.28b0
-    # - falcon <4.0.0,>=2.0.0
-    # - parameterized ==0.7.4
-    # - opentelemetry-test-utils ==0.28b1
-    # - falcon <4.0.0,>=2.0.0
-    # - parameterized ==0.7.4
-    # - opentelemetry-test-utils ==0.29b0
-    # - falcon <4.0.0,>=2.0.0
-    # - parameterized ==0.7.4
-    # - packaging >=20.0
+    - parameterized ==0.7.4
+    - packaging >=20.0
     # - opentelemetry-test-utils ==0.30b0
-    # - falcon <4.0.0,>=1.4.1
+    - falcon <4.0.0,>=1.4.1
 
 test:
   imports:
