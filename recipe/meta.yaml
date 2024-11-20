@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-falcon" %}
-{% set version = "0.49b1" %}
+{% set version = "0.49b2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_falcon-{{ version }}.tar.gz
-  sha256: b41cd978588ae8bd469ae8bd4abcd7169ec806e81ef0f23a80cd417f76c407b3
+  sha256: dcf4e69cbe1710996ea3c325ea0fce74826a9fc098b734a8c603fae746b0a248
 
 build:
   noarch: python
@@ -22,10 +22,10 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation-wsgi ==0.49b1
-    - opentelemetry-instrumentation ==0.49b1
-    - opentelemetry-semantic-conventions ==0.49b1
-    - opentelemetry-util-http ==0.49b1
+    - opentelemetry-instrumentation-wsgi ==0.49b2
+    - opentelemetry-instrumentation ==0.49b2
+    - opentelemetry-semantic-conventions ==0.49b2
+    - opentelemetry-util-http ==0.49b2
     - packaging >=20.0
     # - parameterized ==0.7.4
     # - opentelemetry-test-utils ==0.37b0
@@ -53,6 +53,7 @@ requirements:
     # - falcon <3.1.2,>=1.4.1
     # - opentelemetry-test-utils ==0.44b0
     # - opentelemetry-instrumentation-falcon 
+    # - falcon <3.1.2,>=1.4.1
     # - falcon <3.1.2,>=1.4.1
     # - falcon <3.1.2,>=1.4.1
     # - falcon <3.1.2,>=1.4.1
